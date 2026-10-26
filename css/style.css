@@ -458,7 +458,124 @@ nav ul li a{
 }
 
 .Recenzii{
-    height: 480px;
+    height: 370px;
+    padding: 56px 40px 64px;
+    text-align: center;
+    background: white;
+}
+
+.RecenzieTitlu{
+    color: #B3191C;
+    font-family: Barlow;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.RecenzieSubtext{
+    margin: 6px 0 0;
+    font-family: Bebas Neue;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    color: black;
+}
+
+.RecenzieGhilimele{
+    margin-top: 6px;
+    font-family: Bebas Neue;
+    font-size: 72px;
+    line-height: 1;
+    color: #B3191C;
+}
+
+.RecenzieSlider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 10px auto 0;
+}
+
+.RecenzieSageata{
+    flex: 0 0 36px;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #E3E8F0;
+    border-radius: 50%;
+    background: white;
+    color: black;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.RecenzieContinut{
+    flex: 1;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.RecenzieText{
+    margin: 0 0 32px;
+    font-family: Bebas Neue;
+    font-size: 21px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: black;
+}
+
+.RecenzieAutor{
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    text-align: left;
+}
+
+.RecenzieAvatar{
+    display: grid;
+    place-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #B3191C;
+    color: white;
+    font-family: Barlow;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.RecenzieNume{
+    font-family: Barlow;
+}
+
+.RecenzieNume strong{
+    display: block;
+    font-size: 14px;
+    color: black;
+}
+
+.RecenzieNume span{
+    font-size: 12px;
+    color: #64748B;
+}
+
+.RecenzieBuline{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 26px;
+}
+
+.Bulina{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #E3E8F0;
+    cursor: pointer;
+}
+
+.Bulina.Activa{
+    background: #B3191C;
 }
 
 .Galerie{
