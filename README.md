@@ -1,1 +1,1 @@
-Salnic Cristian, IT11Z, 26.10.26
+Salnic Cristian, IT11Z, Varianta 24
