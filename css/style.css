@@ -4,6 +4,22 @@ body{
     margin: 0 auto;
 }
 
+.Bara-de-sus{
+    height: 36px;
+    font-family: Barlow;
+    font-size: 13px;
+    background-color: #0C0A0F;
+    color: white;
+}
+
+.ContactNav{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
 .Red-text{
     color: #B91C1C;
 }
