@@ -707,12 +707,12 @@ nav ul li a{
     color: black;
 }
 
-.Abonare {
+.Abonare{
     padding: 48px 28px;
     background: #FDE8E8;
 }
 
-.AbonareCard {
+.AbonareCard{
     position: relative;
     margin: 0 auto;
     padding: 40px 48px 44px;
@@ -722,7 +722,7 @@ nav ul li a{
     max-width: 600px;
 }
 
-.AbonarePlic {
+.AbonarePlic{
     position: absolute;
     top: -22px;
     right: -22px;
@@ -736,7 +736,7 @@ nav ul li a{
     font-size: 28px;
 }
 
-.AbonareTitlu {
+.AbonareTitlu{
     margin: 0 0 12px;
     font-family: Bebas Neue;
     font-size: 30px;
@@ -744,14 +744,14 @@ nav ul li a{
     color: black;
 }
 
-.AbonareSubtext {
+.AbonareSubtext{
     margin: 0 0 24px;
     font-family: Barlow;
     font-size: 15px;
     color: #64748B;
 }
 
-.AbonareForm {
+.AbonareForm{
     display: flex;
     gap: 8px;
     max-width: 450px;
@@ -761,7 +761,7 @@ nav ul li a{
     border-radius: 6px;
 }
 
-.AbonareInput {
+.AbonareInput{
     flex: 1;
     min-width: 0;
     padding: 10px 14px;
@@ -771,7 +771,7 @@ nav ul li a{
     font-size: 14px;
 }
 
-.AbonareButton {
+.AbonareButton{
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -784,6 +784,78 @@ nav ul li a{
 }
 
 footer{
-    height: 328px;
-    background-color: #0C0A0F;
+    padding: 48px 46px 28px;
+    background: #0C0A0F;
+    color: #94A3B8;
+    font-family: Barlow;
+}
+
+.FooterGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 48px;
+}
+
+.FooterLogo{
+    margin-bottom: 18px;
+    font-family: Bebas Neue;
+    font-size: 26px;
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+.FooterLogo span{
+    color: #D97706;
+}
+
+.FooterDescriere{
+    margin: 0 0 32px;
+    max-width: 300px;
+    font-size: 15px;
+    line-height: 1.75;
+}
+
+.FooterSocial{
+    display: flex;
+    gap: 12px;
+}
+
+.FooterSocial a{
+    display: grid;
+    place-items: center;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background: #1F1D24;
+    color: #CBD5E1;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.FooterColoana{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.FooterTitlu{
+    margin: 0 0 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+.FooterColoana a{
+    color: #94A3B8;
+    text-decoration: none;
+}
+
+.Copyright{
+    margin-top: 48px;
+    padding-top: 26px;
+    border-top: 1px solid #475569;
+    text-align: center;
+    font-size: 14px;
+    color: #94A3B8;
 }
