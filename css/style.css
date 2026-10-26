@@ -103,6 +103,7 @@ nav ul li a{
 }
 
 .title{
+    font-family: Barlow;
     font-size: 44px;
     margin-bottom: 16px;
 }
@@ -581,6 +582,57 @@ nav ul li a{
 .Galerie{
     height: 560px;
     background-color: #F8F7F9;
+}
+
+.GalerieSubtext{
+    margin: 6px 0 0;
+    font-family: Bebas Neue;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    color: black;
+}
+
+.Galerie{
+    padding: 56px 28px 64px;
+    text-align: center;
+    background: #F8F7F9;
+}
+
+.GalerieGrid{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    height: 490px;
+    margin: 40px auto 0;
+}
+
+.Foto {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.Foto1{
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+
+.Foto2{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.Foto3{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.Foto4{
+    grid-column: 3;
+    grid-row: 1 / 3;
 }
 
 .Oferte{
