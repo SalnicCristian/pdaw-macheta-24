@@ -859,3 +859,22 @@ footer{
     font-size: 14px;
     color: #94A3B8;
 }
+
+.UpButton{
+    position: fixed;
+    right: 300px;
+    bottom: 28px;
+    z-index: 1000;
+    display: grid;
+    place-items: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #B91C1C;
+    color: white;
+    font-family: Barlow;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1;
+    text-decoration: none;
+}
