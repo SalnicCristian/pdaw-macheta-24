@@ -1,11 +1,7 @@
 body{
-    width: 100%;
     font-family: "Bebas Neue", sans-serif;
+    max-width: 960px;
     margin: 0 auto;
-}
-
-html{
-    zoom: 2.95;
 }
 
 .Red-text{
@@ -14,7 +10,8 @@ html{
 
 .Red-text-acasa{
     color: #B91C1C;
-    text-decoration: underline; 
+    border-bottom: 2px solid;
+    font-weight: bold;
 }
 
 .Logo{
@@ -69,9 +66,181 @@ nav ul li a{
 }
 
 .Hero{
-    width: 100%;
-    height: 547px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+    padding: 56px 32px;
+    background: #f3dcdc;
+}
+
+.Ora{
+    font-family: Barlow;
+    font-weight: bold;
+    display: inline-block;
+    color: #B91C1C;
+    background-color: white;
+    border-radius: 16px;
+    font-size: 13px;
+    padding: 8px 16px;
+    margin-bottom: 8px;
+}
+
+.title{
+    font-size: 44px;
+    margin-bottom: 16px;
+}
+
+.subtitle{
+    font-family: Barlow;
+    color: #475569;
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.Vezi-programul{
+    font-family: Barlow;
+    font-weight: bold;
+    background-color: #B91C1C;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 12px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.Filmele-lunii{
+    font-family: Barlow;
+    font-weight: bold;
+    color: #B91C1C;
     background-color: #FDE8E8;
+    border-radius: 4px;
+    border: solid;
+    border-width: 2px;
+    padding: 12px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.popup{
+    flex: 1;
+}
+
+.statistici ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1.5em;
+    justify-content: start;
+    padding-left: 0;
+    font-size: 28px;
+}
+
+.statistici-subtext{
+
+    font-family: Barlow;
+    font-size: 13px;
+    color: #64748B;
+}
+
+.ImagineCinema{
+    flex: 1;
+}
+
+.ImagineCinema img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.Popcorn {
+    position: absolute;
+    left: 750px;
+    bottom: 225px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 22px 10px 10px;
+    background: white;
+    border-radius: 5px;
+    font-family: Barlow;
+}
+
+.EmojiPopcorn {
+    position: relative;
+    isolation: isolate;
+    flex: 0 0 56px;
+    width: 56px;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    font-size: 26px;
+}
+
+.BackgroundPopcorn {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: 32px;
+    background: #FDE8E8;
+}
+
+.PopcornBold{
+    color: black;
+    font-size: 15px;
+}
+
+.TextPopcorn {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #64748B;
+}
+
+.Bilet {
+    position: absolute;
+    left: 1030px;
+    bottom: 500px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 22px 10px 10px;
+    background: white;
+    border-radius: 5px;
+    font-family: Barlow;
+}
+
+.EmojiBilet {
+    position: relative;
+    isolation: isolate;
+    flex: 0 0 56px;
+    width: 56px;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    font-size: 26px;
+}
+
+.BackgroundBilet {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: 32px;
+    background: #FDE8E8;
+}
+
+.BiletBold{
+    color: black;
+    font-size: 15px;
+}
+
+.TextBilet {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #64748B;
 }
 
 .Avantaje{
