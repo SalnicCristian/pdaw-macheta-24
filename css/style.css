@@ -108,6 +108,12 @@ nav ul li a{
     margin-bottom: 16px;
 }
 
+.MainTitle{
+    font-family: Bebas Neue;
+    font-size: 44px;
+    margin-bottom: 16px;
+}
+
 .subtitle{
     font-family: Barlow;
     color: #475569;
@@ -701,9 +707,80 @@ nav ul li a{
     color: black;
 }
 
-.Abonare{
-    height: 300px;
-    background-color: #FDE8E8;
+.Abonare {
+    padding: 48px 28px;
+    background: #FDE8E8;
+}
+
+.AbonareCard {
+    position: relative;
+    margin: 0 auto;
+    padding: 40px 48px 44px;
+    text-align: center;
+    background: white;
+    border-radius: 4px;
+    max-width: 600px;
+}
+
+.AbonarePlic {
+    position: absolute;
+    top: -22px;
+    right: -22px;
+    display: grid;
+    place-items: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #D97A0B;
+    color: white;
+    font-size: 28px;
+}
+
+.AbonareTitlu {
+    margin: 0 0 12px;
+    font-family: Bebas Neue;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    color: black;
+}
+
+.AbonareSubtext {
+    margin: 0 0 24px;
+    font-family: Barlow;
+    font-size: 15px;
+    color: #64748B;
+}
+
+.AbonareForm {
+    display: flex;
+    gap: 8px;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 4px;
+    border: 1px solid #E3E8F0;
+    border-radius: 6px;
+}
+
+.AbonareInput {
+    flex: 1;
+    min-width: 0;
+    padding: 10px 14px;
+    border: none;
+    outline: none;
+    font-family: Barlow;
+    font-size: 14px;
+}
+
+.AbonareButton {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #B91C1C;
+    color: white;
+    font-family: Barlow;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 footer{
