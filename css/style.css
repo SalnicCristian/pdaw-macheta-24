@@ -176,7 +176,7 @@ nav ul li a{
 .Popcorn {
     position: absolute;
     left: 750px;
-    bottom: 225px;
+    bottom: 190px;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -219,7 +219,7 @@ nav ul li a{
 .Bilet {
     position: absolute;
     left: 1030px;
-    bottom: 500px;
+    bottom: 460px;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -261,6 +261,72 @@ nav ul li a{
 
 .Avantaje{
     height: 458px;
+    padding: 64px 40px;
+    text-align: center;
+    background: white;
+    font-family: Barlow;
+}
+
+.Titlu{
+    color: #b3191C;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.Subtext1 {
+    margin: 6px 0 12px;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    color: Black;
+}
+
+.Subtext2 {
+    margin: 0 0 40px;
+    font-size: 16px;
+    color: #64748B;
+}
+
+.DeCeGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.Beneficiu {
+    padding: 30px 20px 34px;
+    background: white;
+    border: 1px solid #E3E8F0;
+    border-radius: 6px;
+}
+
+.BeneficiuIcon {
+    display: grid;
+    place-items: center;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 28px;
+    border-radius: 50%;
+    background: #FDE8E8;
+    font-size: 30px;
+}
+
+.BeneficiuTitlu {
+    margin: 0 0 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #111;
+}
+
+.BeneficiuText {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #64748b;
 }
 
 .Produse{
