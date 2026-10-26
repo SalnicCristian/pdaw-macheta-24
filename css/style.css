@@ -1,0 +1,73 @@
+body{
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    max-width: 960px; 
+    margin: 0 auto;
+}
+
+html{
+    zoom: 3;
+}
+
+.Red-text{
+    color: #B91C1C;
+}
+
+.Red-text-acasa{
+    color: #B91C1C;
+    text-decoration: underline; 
+}
+
+.Logo{
+    cursor: pointer;
+}
+
+header{
+    height: 76px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-size: 24px;
+    border: 1px solid #E2E8F0;
+}
+
+nav ul{
+    font-family: Barlow;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1.5em;
+    align-items: center;
+    padding: 0;
+    margin: 0;  
+    font-size: 16px;
+}
+
+nav ul li a{
+    color: #475569;
+    text-decoration: none;
+}
+
+.Rezerva-locuri{
+    background-color: #B91C1C;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 128px;
+    height: 48px;
+    padding: 10px 0; 
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.hero{
+
+}
