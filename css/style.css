@@ -173,7 +173,7 @@ nav ul li a{
     border-radius: 10px;
 }
 
-.Popcorn {
+.Popcorn{
     position: absolute;
     left: 750px;
     bottom: 190px;
@@ -186,7 +186,7 @@ nav ul li a{
     font-family: Barlow;
 }
 
-.EmojiPopcorn {
+.EmojiPopcorn{
     position: relative;
     isolation: isolate;
     flex: 0 0 56px;
@@ -197,7 +197,7 @@ nav ul li a{
     font-size: 26px;
 }
 
-.BackgroundPopcorn {
+.BackgroundPopcorn{
     position: absolute;
     inset: 0;
     z-index: -1;
@@ -210,13 +210,13 @@ nav ul li a{
     font-size: 15px;
 }
 
-.TextPopcorn {
+.TextPopcorn{
     font-size: 13px;
     line-height: 1.5;
     color: #64748B;
 }
 
-.Bilet {
+.Bilet{
     position: absolute;
     left: 1030px;
     bottom: 460px;
@@ -229,7 +229,7 @@ nav ul li a{
     font-family: Barlow;
 }
 
-.EmojiBilet {
+.EmojiBilet{
     position: relative;
     isolation: isolate;
     flex: 0 0 56px;
@@ -240,7 +240,7 @@ nav ul li a{
     font-size: 26px;
 }
 
-.BackgroundBilet {
+.BackgroundBilet{
     position: absolute;
     inset: 0;
     z-index: -1;
@@ -253,7 +253,7 @@ nav ul li a{
     font-size: 15px;
 }
 
-.TextBilet {
+.TextBilet{
     font-size: 13px;
     line-height: 1.5;
     color: #64748B;
@@ -274,7 +274,7 @@ nav ul li a{
     letter-spacing: 0.5px;
 }
 
-.Subtext1 {
+.Subtext1{
     margin: 6px 0 12px;
     font-family: Bebas Neue;
     font-weight: 400;
@@ -283,13 +283,13 @@ nav ul li a{
     color: Black;
 }
 
-.Subtext2 {
+.Subtext2{
     margin: 0 0 40px;
     font-size: 16px;
     color: #64748B;
 }
 
-.DeCeGrid {
+.DeCeGrid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
@@ -297,14 +297,14 @@ nav ul li a{
     margin: 0 auto;
 }
 
-.Beneficiu {
+.Beneficiu{
     padding: 30px 20px 34px;
     background: white;
     border: 1px solid #E3E8F0;
     border-radius: 6px;
 }
 
-.BeneficiuIcon {
+.BeneficiuIcon{
     display: grid;
     place-items: center;
     width: 72px;
@@ -315,14 +315,14 @@ nav ul li a{
     font-size: 30px;
 }
 
-.BeneficiuTitlu {
+.BeneficiuTitlu{
     margin: 0 0 8px;
     font-size: 18px;
     font-weight: bold;
     color: #111;
 }
 
-.BeneficiuText {
+.BeneficiuText{
     margin: 0;
     font-size: 15px;
     line-height: 1.6;
@@ -332,6 +332,129 @@ nav ul li a{
 .Produse{
     height: 700px;
     background-color: #F8F7F9;
+    padding: 64px 40px;
+    text-align: center;
+    background: #f7f7fa;
+    font-family: Barlow;
+}
+
+.FilmTitlu{
+    color: #B3191C;
+    font-family: Barlow;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.FilmSubtext1{
+    margin: 6px 0 12px;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    color: black;
+}
+
+.FilmSubtext2{
+    margin: 0 0 44px;
+    font-size: 16px;
+    color: #64748B;
+}
+
+.FilmGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.Film{
+    display: flex;
+    min-height: 252px;
+    overflow: hidden;
+    text-align: left;
+    background: white;
+    border-radius: 6px;
+}
+
+.FilmPoster{
+    position: relative;
+    flex: 0 0 40%;
+}
+
+.FilmPoster img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.FilmTip{
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    padding: 6px 12px;
+    background: #D97A0B;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.FilmInfo{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 30px 28px 26px;
+}
+
+.FilmStele{
+    color: #F59E0B;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.FilmTitlu{
+    margin: 10px 0 8px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+.FilmDescriere{
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #64748B;
+}
+
+.FilmJos{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: auto;
+    padding-top: 16px;
+}
+
+.FilmPret{
+    font-family: Bebas Neue;
+    font-size: 24px;
+    color: #B3191C;
+}
+
+.FilmPretVechi{
+    display: block;
+    font-family: Barlow;
+    font-size: 14px;
+    color: #94A3B8;
+}
+
+.FilmBilete{
+    color: #B3191C;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
 }
 
 .Recenzii{
